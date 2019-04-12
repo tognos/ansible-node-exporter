@@ -35,3 +35,11 @@
     state: started
   tags:
     - node_exporter_run
+
+- name: place consul service description
+  become: true
+  copy:
+    src: nodeexporter.json
+    dest: /etc/consul.d/
+  tags:
+    - node_exporter_run

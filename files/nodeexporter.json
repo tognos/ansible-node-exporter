@@ -1,0 +1,7 @@
+{
+	"service": {
+		"name": "prometheus-node-exporter",
+		"port": 9100,
+		"tags": [ "prod"]
+	}
+}
